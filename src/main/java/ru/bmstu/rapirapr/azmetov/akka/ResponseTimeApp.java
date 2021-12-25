@@ -58,6 +58,7 @@ public class ResponseTimeApp {
                             query.get(URL_QUERY_PARAMETER_ALIAS).get(),
                             Integer.parseInt(query.get(COUNT_QUERY_PARAMETER_ALIAS).get())
                     );
+                    l;
                 })
                 .mapAsync(1, pair -> {
                     System.out.println(pair);
